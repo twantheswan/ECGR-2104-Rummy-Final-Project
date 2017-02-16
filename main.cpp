@@ -202,7 +202,7 @@ void gamestart(vector<Card> deck){
     
     int input;
     
-    cout << "Welcome to Rummy!\n" << "Do you want player v.s. player or cpu v.s. player? (type 1 or 2)" << endl;
+    cout << "Welcome to Rummy!\n" << "Do you want player v.s. player or computer v.s. player? (type 1 or 2)" << endl;
     cin >> input;
     
     if(input==1){
@@ -211,7 +211,7 @@ void gamestart(vector<Card> deck){
     }
     
     if(input==2){
-        cout << "cpu v.s. player selected" << endl;
+        cout << "computer v.s. player selected" << endl;
         cpuplayer(deck);
     }
     if(input != 1 && input != 2){
